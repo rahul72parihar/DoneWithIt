@@ -15,12 +15,12 @@ const styles = StyleSheet.create({
   card: {
     borderRadius: 15,
     backgroundColor: "white",
-    marginBottom: 20,
+    margin: 15,
     overflow: "hidden",
   },
   image: {
     width: "100%",
-    height: 300,
+    height: 250,
   },
   detailContainer:{
     padding: 20,
