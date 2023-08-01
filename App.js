@@ -9,26 +9,28 @@ import { Switch, Text, TextInput } from "react-native";
 import { useState } from "react";
 import AppTextInput from "./App/components/AppTextInput";
 import AppPicker from "./App/components/AppPicker";
+import LoginScreenTwo from "./App/screens/LoginScreenTwo";
 
-const categories = [
-  { label: "Furniture", value: 1 },
-  { label: "Toy", value: 2 },
-  { label: "Tech", value: 3 },
-];
+// const categories = [
+//   { label: "Furniture", value: 1 },
+//   { label: "Toy", value: 2 },
+//   { label: "Tech", value: 3 },
+// ];
 export default function App() {
-  const [category, setCategory] = useState('');
-  return (
-    <Screen>
-      <AppPicker
-        items={categories}
-        icon="apps"
-        placeholder="Categories"
-        selectedItem={category}
-        onSelectItem={(item) => setCategory(item)}
-      ></AppPicker>
-      <AppTextInput icon="email" placeholder="Email"></AppTextInput>
-    </Screen>
-  );
+  return <LoginScreenTwo/>
+  // const [category, setCategory] = useState('');
+  // return (
+  //   <Screen>
+  //     <AppPicker
+  //       items={categories}
+  //       icon="apps"
+  //       placeholder="Categories"
+  //       selectedItem={category}
+  //       onSelectItem={(item) => setCategory(item)}
+  //     ></AppPicker>
+  //     <AppTextInput icon="email" placeholder="Email"></AppTextInput>
+  //   </Screen>
+  // );
   // return <ListingScreen/>
   // return<AccountScreen/>
   // return <MessagesScreen/>

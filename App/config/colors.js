@@ -3,7 +3,7 @@ colors={
  secondary : "#fc5c65",
  black : "#000",
  white : "#fff",
- light: "#b8b8b8",
+ light: "#ebebeb",
  danger: "#ff5252",
  backgroundGrey: "#ebebeb",
 }
